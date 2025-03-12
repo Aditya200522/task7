@@ -5,12 +5,12 @@ class family:
 
 class Child1(family):
     def see_info(self):
-        print("Feature from Child1")
+        print("This is the Child1")
 
 
 class Child2(Child1):
     def see_info1(self):
-        print("Feature from Child2")
+        print("This is the Child2")
 
 
 obj1 = Child1()
